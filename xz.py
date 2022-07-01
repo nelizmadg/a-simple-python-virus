@@ -3,7 +3,6 @@ from threading import Thread
 import tkinter.messagebox
 import webbrowser
 import subprocess as sp
-from winsound import PlaySound
 from playsound import *
 
 playsound("gjgjgj(1).mp3")
